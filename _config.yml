@@ -3,5 +3,5 @@ email: zwade@andrew.cmu.edu
 description: "A Smarter Stove"
 
 sass:
-        sass_dir: assets/css
+        sass_dir: css
         style: :compressed
