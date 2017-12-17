@@ -56,3 +56,7 @@ Speaking to Samadrita, she suggested that there has not been much prior research
 ## Resources Required
 	
 As this is a hardware projects as well as a software one, there will be several things required in order to carry out the project. The biggest of these will be the sensors. With regards to the gas sensors, those have already been purchased and are currently being integrated into the project. For further sensors, they will need to be ordered on a case by case basis. In addition, a computer will be necessary that can talk to these devices. In practice, I imagine this will be something in the way of a small embeddable computer, although I do not know what is currently being used. All other software and hardware needed will be handled individually.
+
+## Milestone
+
+Details from the first milestone can be found on the [milestone](milestone) page.

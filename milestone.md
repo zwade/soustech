@@ -1,0 +1,13 @@
+---
+layout: base
+title: SousTech Milestone Report
+---
+
+# SousTech
+#### Zachary Wade <zwade>
+
+Over the course of the past semester, Samadrita Das — a masters student of Human Computer Interaction — and I have built and begun testing a prototype of SousTech. The prototype we built had five sensors for different gases and was partially enclosed in a 3D printed case. It incorporates an alcohol, methane, natural gas, organic solvent, and hydrogen gas sensors, and attempts to read all of them to determine the current context. In order to facilitate testing and enable easier repair, all of the sensors were soldered onto custom designed 3-pin connectors that could then be attached to a socket on a proto board. This board also contained sockets for custom resistor values in order to change the signal gain on each of the sensors. Finally, the proto board also holds an Arduino that operates with a pinout similar to an Arduino Teensy.  
+
+The hardware was constructed over the course of approximately five weeks, with me spending four to five hours a week on the project. In order to test the functionality of the hardware, we spent an afternoon examining the response of the device to various food preparatory processes. Unfortunately, during this process, one of our connections broke, and since we were no longer in the laboratory setting, we had no means of repairing it. As such, we were able to test only four of the five sensors during this process. Of these four sensors, we noticed a visible change in the organic solvents as well as in the natural gas levels. In addition, there was a slight increase in the hydrogen readings. However, at no point during food preparation did the alcohol gas sensor exhibit any change. While we were able to visibly detect these changes, we have not yet made any attempt to feed this data into a classifier for the purposes of food detection. While we had hoped to reach there by this point, we instead only succeeded in designing the hardware prototype and thus did not entirely reach our milestone. 
+
+While it is unfortunate that we did not complete the prototype, I had anticipated that this might be the case when designing my 15-400 milestone, and so no further changes to it should be necessary, as it has already allotted time for me to finish this up.  As such, I am still on track to for 15-400 to go as intended. Furthermore, I already have all of the hardware and software I need to continue, so finishing up this version of the prototype should be quick once I begin working on it. The early results from SousTech are promising, and we hope to see even stronger results next semester.
