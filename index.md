@@ -60,3 +60,7 @@ As this is a hardware projects as well as a software one, there will be several 
 ## Milestone
 
 Details from the first milestone can be found on the [milestone](milestone) page.
+
+Weekly milestones can be found below
+
+ - [Update #1](update1)
