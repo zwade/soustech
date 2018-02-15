@@ -64,3 +64,4 @@ Details from the first milestone can be found on the [milestone](milestone) page
 Weekly milestones can be found below
 
  - [Update #1](update1)
+ - [Update #2](update2)
