@@ -3,41 +3,34 @@ layout: base
 title: SousTech Milestone Report
 ---
 
-# SousTech Update 4
+# SousTech Update 5
 #### Zachary Wade &lt;zwade&gt;
 
 ## Major Changes
 
-Some large changes are planned as a result of the work done so far. See below for more detail.
+No major changes have occurred.
 
 ## Accomplishments
 
-The majority of the past two weeks of class were spent tuning the sensors and collecting data from a wide array of sources. Examples of the data collected include 
-
- - Boiling Water
- - Tomato Sauce
- - Bell Pepper
- - Black Tea
-
-In addition, some rudimentary data analysis was performed. Unfortunately, the results gathered raised some rather large concerns about repeatability. The data demonstrate no obvious correlation between observed gas and the food being cooked. Thus, toward the end of these weeks I began planning an alternative solution based around using the surface temperature of the dish acting as a baseline. In addition, I will add a method for recording anomolies during collection
+Over the past two weeks I have completed and tested version two of the SousTech hardware. This new version contains two additional sensors, one that can measure the temperature inside the housing (for calibration purposes) and an IR temperature sensor that can measure the approximate temperature of the food that is being prepared. The hope is that these additional data points will allow us achieve more repeatable data by providing a baseline for the data.
 
 ## Milestone
 
-I completed the milestone I set forth, namely I finished calibrating the sensors and I collected significant amounts of data. 
+While I have not been able to take much new data, I have successfully completed my primary milestone of adding the new sensor and integrating it into the collection pipeline.
 
 ## Suprises
 
-The large surprise was that one mentioned above, in that the data seems uncorrelated with the food being cooked.
+There were a few individual surprises; for instance integrating the sensor was difficult because it primarily communicated over I<sup>2</sup>C, and while it had a PWM mode, that required disabling I<sup>2</sup>C permanently and gave 10 bits of resolution instead of 12. This meant that large portions of the protoboard had to be resoldered in order to make room for the new chip. As one might imagine, this lead to a number of random issues (bad solder joints, mislabeled inputs, etc.). None of these were particularly major, however. 
 
 ## Looking Ahead
 
-For the next few weeks, I will be integrating the new sensor into my pipeline and recalibrating the data collection using it.
+Now that we have the new sensor added, we hope to be able to tell whether or not the data we are collecting is more stable &mdash; i.e. will we be able to get roughly the same data for two instances of the same test.
 
 ## Revisions
 
-My new milestone is to add the temperature baseline into the pipeline, as well as some rudimentary logging to be correlated with the collection. Once this is complete, I will need to recollect a lot of data.
+At this point the main goal is to continue collecting data and determining the feasibility of detection.
 
 ## Resources
 
-All further resources have been acquired.
+More food is required for testing purposes.
 
