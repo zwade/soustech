@@ -68,3 +68,4 @@ Weekly milestones can be found below
  - [Update #3](update3)
  - [Update #4](update4)
  - [Update #5](update5)
+ - [Update #6](update6)
