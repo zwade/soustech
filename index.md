@@ -69,3 +69,8 @@ Weekly milestones can be found below
  - [Update #4](update4)
  - [Update #5](update5)
  - [Update #6](update6)
+
+## Final Report
+
+A PDF of my final report can be found [here](report.pdf)
+
